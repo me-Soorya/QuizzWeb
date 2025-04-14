@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h2 id="question">Question</h2>
+    <p id="progress">Question 1 of 3</p>
+    
+    <div class="options">
+      <button id="opt0" class="option" onclick="selectOption(0)">Option 1</button>
+      <button id="opt1" class="option" onclick="selectOption(1)">Option 2</button>
+      <button id="opt2" class="option" onclick="selectOption(2)">Option 3</button>
+      <button id="opt3" class="option" onclick="selectOption(3)">Option 4</button>
+    </div>
+  </div>
+
+  <!-- Feedback container at top-right -->
+  <div id="feedback-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
